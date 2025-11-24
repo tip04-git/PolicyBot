@@ -1,0 +1,22 @@
+2025-11-23 13:49:39,817 - INFO - Starting full pipeline...
+2025-11-23 13:49:42,346 - WARNING - Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLError(1, '[SSL: TLSV1_UNRECOGNIZED_NAME] tlsv1 unrecognized name (_ssl.c:1018)'))': /
+2025-11-23 13:49:44,494 - WARNING - Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLError(1, '[SSL: TLSV1_UNRECOGNIZED_NAME] tlsv1 unrecognized name (_ssl.c:1018)'))': /
+2025-11-23 13:49:48,603 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLError(1, '[SSL: TLSV1_UNRECOGNIZED_NAME] tlsv1 unrecognized name (_ssl.c:1018)'))': /
+2025-11-23 13:49:56,717 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLError(1, '[SSL: TLSV1_UNRECOGNIZED_NAME] tlsv1 unrecognized name (_ssl.c:1018)'))': /
+2025-11-23 13:50:12,822 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLError(1, '[SSL: TLSV1_UNRECOGNIZED_NAME] tlsv1 unrecognized name (_ssl.c:1018)'))': /
+2025-11-23 13:50:13,336 - INFO - Crawling completed successfully.
+2025-11-23 13:50:18,378 - INFO - Downloading completed successfully.
+2025-11-23 13:50:58,699 - WARNING - Cannot set gray non-stroke color because /'P83' is an invalid float value
+2025-11-23 13:50:58,887 - WARNING - Cannot set gray non-stroke color because /'P218' is an invalid float value
+2025-11-23 13:50:58,942 - WARNING - Cannot set gray non-stroke color because /'P239' is an invalid float value
+2025-11-23 13:51:02,388 - WARNING - Cannot set gray non-stroke color because /'P376' is an invalid float value
+2025-11-23 13:51:04,627 - WARNING - Cannot set gray non-stroke color because /'P610' is an invalid float value
+2025-11-23 13:51:04,902 - WARNING - Cannot set gray non-stroke color because /'P632' is an invalid float value
+2025-11-23 13:51:09,258 - INFO - Preprocessing completed successfully.
+2025-11-23 13:51:09,376 - INFO - Chunking completed successfully.
+2025-11-23 13:51:09,383 - INFO - Use pytorch device_name: cpu
+2025-11-23 13:51:09,383 - INFO - Load pretrained SentenceTransformer: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+2025-11-23 13:51:12,496 - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-11-23 13:51:52,442 - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-11-23 13:52:22,925 - INFO - Embedding completed successfully.
+2025-11-23 13:52:22,927 - INFO - Pipeline completed!
